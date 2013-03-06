@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'terrun'
-  s.version     = '1.0.0'
+  s.version     = '1.1.0'
   s.date        = '2013-02-25'
   s.summary     = 'Easily create terminal applications.'
   s.description = 'Easily create terminal applications.'

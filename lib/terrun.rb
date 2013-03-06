@@ -107,7 +107,7 @@ class TerminalRunner
     puts param_help
     puts "Options:"
     @@avail_options.each { |o| puts "\t" + o.to_s.gsub(/\t/, "\t\t") }
-    puts "\n#{@@help}"
+    puts "\n#{@@help}" if @@help
   end
 
   def self.param(name, help)
